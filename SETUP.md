@@ -1,175 +1,97 @@
-# AGPC AI Chatbot — Setup Guide (Google Gemini Edition)
-# Stack: ChromaDB + sentence-transformers + Gemini 2.5 (all FREE)
+# 🚀 AGPC AI Chatbot — Quick Setup Guide
 
-## Gemini Free Tier Reality (March 2026)
-
-| Model | RPM | Req/Day | Best for |
-|---|---|---|---|
-| gemini-2.5-flash-lite | 15 | 1,000 | Simple factual Q&A (used by default) |
-| gemini-2.5-flash | 10 | 250 | Detailed explanations, complex questions |
-
-The chatbot automatically routes:
-- Short / factual → Flash-Lite (saves your 250/day Flash quota)
-- Long / complex  → Flash (smarter answers)
-
-> ⚠️ Gemini 2.0 Flash was **deprecated March 3, 2026**. This project uses 2.5 models only.
+Welcome! This chatbot is designed for **Arasan Ganesan Polytechnic College (AGPC)**, Sivakasi. It uses **Google Gemini 2.5** and a local **ChromaDB** knowledge base to provide expert answers about admissions, courses, and more.
 
 ---
 
-## Step 1 — Get Your Free Google API Key (2 minutes)
+## ⚡ Option 1 — The One-Click Launcher (Recommended)
 
-1. Go to https://aistudio.google.com/apikey
-2. Sign in with your Google account (no credit card needed)
-3. Click **"Create API key"**
-4. Copy the key (starts with `AIza...`)
+This project includes a **Secure Automated Launcher** that handles everything: creating a virtual environment, installing dependencies, building the knowledge index, and prompting you for API keys.
+
+1.  **Clone the Repo**:
+    ```bash
+    git clone https://github.com/sudharsanking07/AGPC-ChatBot.git
+    cd AGPC-ChatBot
+    ```
+
+2.  **Run the Launcher**:
+    ```bash
+    # Linux / Mac
+    python3 launcher.py
+
+    # Windows (CMD)
+    python launcher.py
+    ```
+
+3.  **Follow the Prompts**:
+    *   It will automatically install AI libraries.
+    *   It will ask for your **Gemini API Key** (starts with `AIza...`). Get one for free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
+    *   Once setup is complete, it will open the chatbot in your web browser at **http://localhost:5000**.
 
 ---
 
-## Step 2 — Folder Structure
+## 🛠️ Option 2 — Manual Installation (Step-by-Step)
 
-```
-agpc_chatbot/
-├── agpc_chatbot.json        ← Your main KB (intents + FAQ)
-├── agpc_scraped_v2.json     ← Detailed scraped data
-├── build_index.py           ← Run ONCE to build the vector index
-├── app.py                   ← The chatbot web app (Gemini powered)
-└── requirements.txt
-```
+If you prefer to set things up manually, follow these steps:
 
----
+### 1. Get Your Free Google API Key
+1. Go to [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
+2. Create an API key and copy it.
 
-## Step 3 — Install Dependencies
-
+### 2. Install Dependencies
+It's recommended to use a virtual environment:
 ```bash
-pip install -r requirements.txt --break-system-packages
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+
+pip install -r requirements.txt
 ```
 
-Installs:
-- `flask` — web server
-- `sentence-transformers` — local embeddings (no API, no cost)
-- `chromadb` — local vector database
-- `google-generativeai` — Gemini API SDK
-
----
-
-## Step 4 — Build the Knowledge Index (Run Once)
-
+### 3. Build the Knowledge Index (Run ONCE)
+This converts the JSON data into a searchable vector database:
 ```bash
 python3 build_index.py
 ```
 
-Output:
-```
-🔨  AGPC Chatbot — Building Knowledge Index
-📊  Total chunks to index: 120+
-✅  Index built! Stored in ./agpc_chroma_db/
-```
-
-Only re-run if you update your JSON data files.
-
----
-
-## Step 5 — Set API Key and Start
-
-**Linux / Mac:**
+### 4. Start the Server
 ```bash
-export GOOGLE_API_KEY=AIza_your_key_here
+export GOOGLE_API_KEY=your_key_here
 python3 app.py
 ```
 
-**Windows CMD:**
-```cmd
-set GOOGLE_API_KEY=AIza_your_key_here
-python app.py
-```
+---
 
-**Windows PowerShell:**
-```powershell
-$env:GOOGLE_API_KEY="AIza_your_key_here"
-python app.py
-```
+## 🎙️ Voice & Multilingual Features
+
+*   **Multi-language**: Type or speak in **Tamil (தமிழ்)** or **Hindi**—the bot will detect it and reply in the same language.
+*   **Voice Control**: Click the **Mic** button to speak. It uses the browser's native Speech-to-Text for speed.
+*   **Realistic Voice (Optional)**: If you provide an **ElevenLabs API Key** in the launcher or `.env`, the bot will gain a premium human-like voice. Otherwise, it uses the standard browser voice.
 
 ---
 
-## Step 6 — Open the Chatbot
+## 📂 File Structure
 
-Go to **http://localhost:5000**
-
-You'll see a dark glassmorphism chat UI with quick-action chips.
-The model badge in the top-right shows which Gemini model answered.
-
----
-
-## How Smart Routing Works
-
-Every question is automatically classified:
-
-```
-"What is the phone number?"       → Flash-Lite (fast, 1000/day)
-"Explain the Printing Technology department" → Flash (smart, 250/day)
-"How to apply for admission?"     → Flash (eligibility = complex)
-"Is hostel available?"            → Flash-Lite (short/factual)
-```
-
-If Flash-Lite hits its rate limit, the app automatically falls back to Flash.
-If Flash also hits limits, it retries with exponential back-off (1s → 2s → 4s).
+| File | Purpose |
+|:---|:---|
+| `launcher.py` | **Start here!** Automates setup and execution. |
+| `app.py` | The main Flask web application and AI engine. |
+| `build_index.py` | Processes college data into the ChromaDB vector database. |
+| `agpc_chatbot.json` | The core "Source of Truth" knowledge base. |
+| `requirements.txt` | List of AI and web libraries required. |
 
 ---
 
-## Managing Your Daily Quota
+## 🧭 Troubleshooting
 
-1000 req/day (Flash-Lite) is very generous for a college chatbot.
-A realistic busy day might be 50-200 student queries.
-
-To stretch your quota further:
-- Keep the chatbot running only during college hours
-- Add response caching for repeated common questions (optional upgrade)
-
----
-
-## Troubleshooting
-
-| Problem | Fix |
-|---------|-----|
-| `ModuleNotFoundError` | `pip install -r requirements.txt --break-system-packages` |
-| `ChromaDB index not found` | Run `python3 build_index.py` first |
-| `429 Resource Exhausted` | Quota hit — app retries automatically; wait 1 minute |
-| `Invalid API key` | Check your `GOOGLE_API_KEY` env variable |
-| Slow first start | Normal — embedding model loads (~5s) then stays fast |
-| Port busy | Change `PORT = 5000` in `app.py` |
+| Issue | Solution |
+|:---|:---|
+| **Port 5000 Busy** | The launcher will try to "kill" the old process for you. If it fails, restart the terminal. |
+| **Quota Hit (429)** | You are on the free tier. Wait 1 minute and try again. |
+| **Invalid API Key** | Ensure you copied the full key from AI Studio without extra spaces. |
+| **Slow Startup** | The first time you run it, it downloads a small Embedding model (~80MB). Subsequent starts are instant. |
 
 ---
 
-## Architecture
-
-```
-User Question
-    │
-    ▼
-sentence-transformers (local, free)   ← converts question to vector
-    │
-    ▼
-ChromaDB (local, free)                ← finds top-5 relevant knowledge chunks
-    │
-    ▼
-Smart Router                          ← Flash-Lite or Flash based on complexity
-    │
-    ▼
-Google Gemini 2.5 (free API)          ← reads chunks, generates natural answer
-    │
-    ▼
-Flask Web UI                          ← streams answer to user
-```
-
----
-
-## Files Summary
-
-| File | Purpose | Run? |
-|------|---------|------|
-| `build_index.py` | Index your JSON into ChromaDB | Once |
-| `app.py` | Flask chatbot app (Gemini powered) | Every time |
-| `requirements.txt` | Python dependencies | Once |
-| `agpc_chatbot.json` | Main knowledge base | Don't edit |
-| `agpc_scraped_v2.json` | Detailed scraped data | Don't edit |
-| `agpc_chroma_db/` | Auto-created vector DB folder | Don't touch |
+**Need Help?**
+Contact AGPC Admission Cell: **+91 95002 99595** or email **admission@arasanganesanpoly.edu.in**.

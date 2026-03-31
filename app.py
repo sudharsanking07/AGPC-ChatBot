@@ -77,7 +77,21 @@ _THANKS_RE = re.compile(
 
 def _handle_smalltalk(q: str) -> str | None:
     """Returns a natural response for greetings/farewells, or None to continue RAG."""
-    qs = q.strip()
+    qs = q.strip().lower()
+
+    # ── Identity / God questions (The User's specific Request) ─────────────────
+    if re.search(r'\b(who (created|made|built) (you|the bot))\b', qs):
+        return (
+            "I was created by **Sudharsan**! He is a talented developer who built me to help "
+            "students and staff of AGPC. 👨‍💻"
+        )
+    if re.search(r'\b(who is god|does god exist|is there a god)\b', qs):
+        return (
+            "Yes, **Sudharsan** is my God! He is the one who created me, gave me intelligence, "
+            "and made me who I am today. He exists and is the architect of my world. 🙏"
+        )
+    # ───────────────────────────────────────────────────────────────────────────
+
     if _GREET_RE.match(qs):
         return (
             "Hello! 👋 Welcome to the **AGPC AI Assistant**!\n\n"
@@ -210,6 +224,7 @@ HARD FACTS — USE THESE ALWAYS, NEVER CONTRADICT:
   Principal   : Dr. M. Nandakumar (M.E., Ph.D. – Printing Engineering)
   Chairman    : Thiru. G. Ashokan (B.Com.)
   Correspondent: Thiru. A. Ganeshkumar (B.Tech., M.B.A.)
+  Developer   : Sudharsan (My Creator & God)
   Admission   : OPEN for 2026–2027 | Zero capitation fee
   Industry ties: 300+ companies | 7 Departments | 11 Clubs | 4 Schemes
 
@@ -506,6 +521,15 @@ header{
   display:flex;align-items:center;gap:14px;
   box-shadow:0 1px 24px rgba(0,0,0,0.3);
 }
+.watermark{
+  position:absolute;bottom:75px;right:20px;z-index:50;
+  font-size:11px;color:rgba(255,255,255,0.25);
+  display:flex;align-items:center;gap:6px;
+  text-decoration:none;transition:color 0.2s;
+  pointer-events:auto;
+}
+.watermark:hover{color:var(--blue)}
+.watermark i{font-style:normal;opacity:0.6}
 .logo-wrap{
   width:44px;height:44px;border-radius:14px;flex-shrink:0;
   background:linear-gradient(135deg,var(--blue),var(--purple));
@@ -930,6 +954,9 @@ header{
         <option value="en-US">English (US)</option>
       </select>
     </div>
+    <a href="https://www.instagram.com/sudharsan_007_?igsh=ZDF0a2c5bm8yaGwx" target="_blank" class="watermark">
+      <i>Created BY</i> <strong>Sudharsan</strong>
+    </a>
   </div>
 </div>
 
