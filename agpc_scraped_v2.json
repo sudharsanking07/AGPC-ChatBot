@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "title": "AGPC Scraped Data v2",
+    "source": "https://www.arasanganesanpoly.edu.in",
+    "compiled": "2026-03-28",
+    "coverage": "30+ PHP pages, 75+ URLs, All Sub-directories",
+    "sections": 25,
+    "sub_sections": "200+"
+  },
+
+  "mission_vision_motto": {
+    "motto": "Yes, We Are Active – Activity Means Progress. PROGRESS IS OUR BUSINESS",
+    "motto_explanation": "The motto reflects the unwavering commitment to continuous learning, purposeful action, and all-round development. True progress stems from active engagement, consistent effort, and the pursuit of excellence in every endeavour.",
+    "vision": "To uplift rural and semi-urban students through accessible, affordable, and industry-relevant technical education; to be a role model and pioneer institution in the field of technical education in India.",
+    "mission_points": [
+      "Offer Diploma, Post-Diploma, Sandwich, and Certificate courses meeting current and emerging industry standards",
+      "Address needs of industry, business, and society by delivering relevant and application-oriented technical education",
+      "Mould disciplined, competent, and job-ready technicians contributing meaningfully to the nation's skilled workforce",
+      "Instil sportsmanship, citizenship values, and strong ethics to support overall personality development of students",
+      "Support the surrounding community by conducting need-based training programmes to enhance socio-economic status",
+      "Collaborate with government bodies and NGOs to contribute to community development and social upliftment",
+      "Ensure all academic and co-curricular programmes are student-centric and focused on welfare and growth",
+      "Progress consistently with the support of a dedicated management team and committed leadership",
+      "Serve as a role model and pioneer institution in the field of technical education"
+    ],
+    "core_institutional_values": {
+      "integrity": "Transparent and ethical administration",
+      "excellence": "Continuous improvement in academics and infrastructure",
+      "discipline": "Strong focus on student behaviour and campus culture",
+      "growth": "Encouragement for staff and student development",
+      "service": "Commitment to community upliftment and social welfare"
+    },
+    "why_students_choose_agpc": [
+      "Academic excellence with disciplined culture",
+      "Highly qualified and dedicated faculty",
+      "Modern laboratories and workshops",
+      "Active placement support",
+      "Strong industry linkages (300+ industries)",
+      "Multiple skill-oriented schemes and clubs",
+      "Scholarships and student welfare programs",
+      "Safe campus with hostel and transport facilities"
+    ]
+  },
+
+  "emblem_symbolism": {
+    "symbol": "WHEEL (circular emblem)",
+    "centre_of_wheel": "Arasan Ganesan Polytechnic College — the driving force of knowledge and technical education",
+    "spokes": "Rays of knowledge spreading outward in all directions, representing multidisciplinary learning",
+    "arrowheads": "Located at the ends of each spoke; symbolise focus, direction, and the power of education to enlighten minds",
+    "overall_meaning": "The mission to dispel ignorance, empower students, and contribute to the progress of the community, the nation, and humanity at large",
+    "emblem_image": "https://www.arasanganesanpoly.edu.in/assets/images/about/emblem.jpg"
+  },
+
+  "founding_trust": {
+    "vision": "Providing accessible, affordable, and industry-relevant technical education to students, especially from rural and semi-urban communities",
+    "founding_correspondent": {
+      "name": "Arasan A.M.S.G. Vijayakumar",
+      "legacy": "CLAIR (Library) named in his honour"
+    },
+    "core_values": [
+      "Quality education for all",
+      "Ethical values and strong discipline",
+      "Social responsibility and community development",
+      "Up-to-date training aligned with industry trends"
+    ]
+  },
+
+  "managing_body": {
+    "core_values": {
+      "integrity": "Transparent and ethical administration",
+      "excellence": "Continuous improvement in academics and infrastructure",
+      "discipline": "Strong focus on student behaviour and campus culture",
+      "growth": "Encouragement for staff and student development",
+      "service": "Commitment to community upliftment and social welfare"
+    },
+    "key_oversight_areas": [
+      "Strategic planning and policy formulation",
+      "Academic governance and curriculum quality",
+      "Infrastructure development and modernization",
+      "Faculty recruitment, welfare, and professional development",
+      "Student welfare, discipline, and support systems",
+      "Implementation of government schemes and educational reforms"
+    ],
+    "development_role": [
+      "Upgrading laboratories, workshops, and classrooms",
+      "Introducing new technologies and advanced training modules",
+      "Strengthening industry partnerships and placement opportunities",
+      "Encouraging research, innovation, and entrepreneurship",
+      "Enhancing hostel facilities, campus safety, and student amenities",
+      "Supporting scholarships and financial assistance schemes"
+    ]
+  },
+
+  "governing_council_functions": [
+    "Formulating institutional policies",
+    "Approving academic and administrative decisions",
+    "Strengthening industry–institution interaction",
+    "Overseeing infrastructure and resource development",
+    "Ensuring compliance with AICTE, DOTE, and Government norms",
+    "Promoting quality assurance and continuous improvement"
+  ],
+
+  "department_details": {
+    "basic_engineering": {
+      "about": "The Basic Engineering Department was established in 1981 and has an annual intake capacity of 420 students. It serves as the gateway to professional technical education, helping young learners transition smoothly from school to diploma-level engineering. The department focuses on building strong fundamentals across core scientific and technical subjects.",
+      "faculty_highlights": [
+        "Highly qualified and experienced staff",
+        "Active contributors to Boards of Studies of autonomous institutions",
+        "Engaged in continuing education programmes",
+        "Deliver guest lectures at other colleges and institutions",
+        "Maintain student-friendly and disciplined environment"
+      ]
+    },
+    "civil_engineering": {
+      "about": "The Civil Engineering Department, established in 1982, trains students in all aspects of construction and infrastructure development. The department offers a strong mix of theoretical and practical training using modern surveying, design, and testing tools, preparing students for employment in both government and private sectors.",
+      "key_features": [
+        "Experienced faculty with practical, industry-oriented teaching approach",
+        "Surveying training including Total Station (advanced instrument)",
+        "Structural design using STAAD Pro (industry-standard software)",
+        "Building plan preparation and cost estimation"
+      ],
+      "laboratories": [
+        "Universal Testing Machines (UTM)",
+        "Hydraulics and Fluid Mechanics Equipment",
+        "Surveying Equipment (including Total Station)",
+        "Water Testing Kits and Analysis Tools",
+        "CAD Workstations (Computer-Aided Design)"
+      ]
+    },
+    "ece": {
+      "about": "The ECE Department, established in 1982, is equipped with state-of-the-art laboratories valued at Rs. 75 Lakhs. The department focuses on developing technically skilled graduates in electronics, communication engineering, robotics, IoT, and embedded systems. It maintains excellent industry interaction and a strong, supportive alumni network.",
+      "salient_features": [
+        "Qualified and experienced teaching staff",
+        "Well-equipped labs worth Rs. 75 Lakhs",
+        "High-Tech Robotics Laboratory",
+        "PLC (Programmable Logic Controller) Laboratory",
+        "Excellent industry interaction and collaboration",
+        "Strong alumni support and engagement",
+        "Immediate placement opportunities for graduates",
+        "Design and development of Mini Industrial Projects (student projects)"
+      ]
+    },
+    "printing_technology": {
+      "about": "The Printing Technology Department has emerged as one of the premier centres for printing education in the country. Established in 1996–97 under the World Bank Project Scheme, the department occupies a dedicated 10,000 sq. ft. building with machinery valued at over Rs. 2 Crores. It has consistently achieved 100% placement for all batches, with many graduates placed both in India and abroad. Multiple students have secured State First Rank in board examinations.",
+      "principal_contribution": [
+        "Dr. M. Nandakumar holds Doctorate in Printing Engineering and Technology",
+        "Faculty authored printing textbooks and guides",
+        "Published and presented papers at national and international conferences",
+        "Contributed to R2023 Scheme syllabus (Diploma in Printing, Paper, Packaging)"
+      ]
+    },
+    "mechanical_engineering": {
+      "about": "Mechanical Engineering is universally known as the 'mother branch' of engineering due to its foundational and wide-ranging scope. The Mechanical Engineering Department at AGPC is one of the oldest and most sought-after, providing comprehensive training in core mechanical concepts, manufacturing processes, thermal sciences, machine design, and industrial engineering.",
+      "teaching_approach": [
+        "Theory sessions combined with practical laboratory work",
+        "Industrial exposure through visits and internships",
+        "Project-based learning with real-world applications",
+        "Highly experienced and dedicated faculty",
+        "Structured curriculum ensuring hands-on industry experience",
+        "Focus on technical skills, analytical thinking, and problem-solving"
+      ]
+    },
+    "eee": {
+      "about": "The EEE Department, established in 1999, stands as one of the pioneering pillars of the institution. With a proud legacy of academic excellence and strong industry partnerships, it is committed to preparing future engineers for a rapidly evolving global landscape. The department achieved a 100% placement rate in 2025.",
+      "highlights": [
+        "Pioneering pillar of the institution since 1999",
+        "Strong legacy of academic excellence and industry partnerships",
+        "Modern sophisticated equipment across all core EEE areas",
+        "Active industrial interaction through consultancy services and sponsored projects",
+        "State-of-the-art labs, modern workshops, and advanced computational facilities",
+        "Nurtures engineers, innovators, and leaders",
+        "Technical clubs, professional society activities, internships, and competitive events"
+      ]
+    },
+    "computer_engineering": {
+      "about": "The Computer Engineering Department was established with the objective of imparting high-quality education and fostering innovation in computing and information technology. It develops technically competent professionals with strong problem-solving skills, ethical values, and a commitment to lifelong learning.",
+      "mission": [
+        "Provide strong fundamentals in computer engineering and advanced computing technologies",
+        "Promote innovation, research, and entrepreneurship",
+        "Nurture ethical values, teamwork, and leadership skills",
+        "Collaborate with industry and academia for knowledge sharing and skill development"
+      ]
+    }
+  },
+
+  "admission_procedure_detailed": {
+    "step_1": "OBTAIN APPLICATION FORM: From the college office in person, by calling +91 95002 99595, or emailing admission@arasanganesanpoly.edu.in",
+    "step_2": "FILL THE FORM: Personal details (name, DOB, address, category), Academic records (marks, percentage, board name), Course preference (first, second, third choice)",
+    "step_3": "ATTACH REQUIRED DOCUMENTS (SSLC Mark Sheet, TC, Conduct Certificate, Community Certificate, Photos, Aadhaar Card)",
+    "step_4": "SUBMIT APPLICATION: In person at college admission cell or through authorized representatives",
+    "step_5": "DOCUMENT VERIFICATION: Admission cell verifies all submitted documents. Originals may be required.",
+    "step_6": "FEE PAYMENT: Prescribed tuition and special fees on confirmation as per DOTE norms",
+    "step_7": "ADMISSION CONFIRMATION: After payment and DOTE approval, student is officially enrolled",
+    "fee_structure_note": "Tuition fee as per DOTE norms. No capitation, hidden charges, or donations. Fee details for 2026-2027 available at college office."
+  },
+
+  "training_and_placement_cell": {
+    "cell_objectives": [
+      "Provide 100% placement assistance to all eligible students",
+      "Establish strong relationships with industries for campus recruitment",
+      "Organize soft-skills, aptitude, and technical training programmes",
+      "Assist students in resume preparation, interview skills, career planning",
+      "Conduct industrial visits, internships, and on-job training",
+      "Guide students towards higher education and government job opportunities"
+    ],
+    "pre_placement_training_modules": [
+      "Aptitude and Logical Reasoning",
+      "Technical Training (department-specific for each branch)",
+      "Communication and Soft-Skills Training",
+      "Group Discussion Practice",
+      "Mock Interviews and HR Round Simulations",
+      "Resume Writing Workshops",
+      "Personality Development Training"
+    ],
+    "industrial_visit_areas": [
+      "Manufacturing process plants and factories",
+      "Electrical and electronics manufacturing units",
+      "IT companies and data centres",
+      "Civil construction sites and projects",
+      "Automotive and mechanical workshops",
+      "Printing and packaging industries"
+    ],
+    "placement_cell_strengths": [
+      "Experienced and dedicated placement officers",
+      "Strong and active industry network (300+ industries)",
+      "Regular training programmes and continuous assessment",
+      "Excellent track record across all 7 departments",
+      "Holistic development approach (academic + soft skills)",
+      "Value-added and skill-based training programmes throughout the year"
+    ],
+    "higher_education_support": [
+      "Lateral entry pathway to B.E./B.Tech programmes (engineering degree)",
+      "Polytechnic-to-engineering counselling procedures and guidance",
+      "Skill enhancement and value-added certificate courses",
+      "Competitive examination preparation guidance (TNEB, TANGEDCO, SSC, Banking)"
+    ],
+    "entrepreneurship_support": [
+      "Fabrication and welding workshops",
+      "Computer service and networking shops",
+      "Civil contracting and construction",
+      "Digital printing and DTP services",
+      "Electrical wiring and maintenance services",
+      "Graphic design and web services",
+      "Machine servicing and repairs"
+    ]
+  },
+
+  "examination_cell_functions": {
+    "dote_coordination": "Receiving and disseminating all DOTE examination circulars, communicating exam schedules to students and faculty, exam fee administration",
+    "planning_preparation": "Preparing institutional examination timetables, seat allotment for examination halls, invigilation duty chart preparation, assignment of teaching staff for exam duties",
+    "operations": "Monitoring examinations for protocol compliance, exam hall discipline, secure collection and dispatch of answer scripts to DOTE valuation centres",
+    "result_analysis": "Distribution of mark sheets, performance analysis (pass percentage, department-wise results), report preparation with Principal, submission to DOTE authorities"
+  },
+
+  "key_personnel": [
+    {"name": "Thiru. G. Ashokan", "qualification": "B.Com.", "role": "Chairman, Governing Council"},
+    {"name": "Thiru. A. Ganeshkumar", "qualification": "B.Tech., M.B.A.", "role": "Correspondent, Governing Council"},
+    {"name": "Thiru. G. V. Karthik", "qualification": "", "role": "Treasurer, Governing Council"},
+    {"name": "Tmt. Sharmilah Jeyagraham", "qualification": "", "role": "Member – Management"},
+    {"name": "Thiru. V. Giridharan", "qualification": "", "role": "Member – Management"},
+    {"name": "Dr. M. Nandakumar", "qualification": "M.E., Ph.D. (Printing Engineering)", "role": "Principal & Ex-Officio Member/Secretary"},
+    {"name": "Dr. C. Ramasubramanian", "qualification": "M.C.A., M.E., M.L.I.Sc., SET, Ph.D.", "role": "Librarian & Exam Cell Officer"},
+    {"name": "Tmt. M. JayaLakshmi", "qualification": "B.Com., M.L.I.Sc.", "role": "Library Assistant"},
+    {"name": "Thiru. S.V. Elangovan", "qualification": "", "role": "Chairman, Physical Education Committee"},
+    {"name": "Thiru. R. Madhanagopal", "qualification": "", "role": "Member, Physical Education Committee"},
+    {"name": "Thiru. M. Pugazh", "qualification": "", "role": "Member, Physical Education Committee"},
+    {"name": "Thiru. M. Marikannan", "qualification": "", "role": "Member, Physical Education Committee"},
+    {"name": "Mrs. B. Bemil", "qualification": "", "role": "Member, Physical Education Committee"}
+  ],
+
+  "announcements_2026": [
+    "Admissions open for the academic year 2026–2027",
+    "April 2026 Theory Examination commences on 23.03.2026",
+    "April 2026 Practical Examination commences on 30th March 2026",
+    "44th Sports Day Annual Report 2025–2026 released"
+  ],
+
+  "highlighted_events": [
+    {"event": "AGPC Awards Ceremony", "url": "https://www.arasanganesanpoly.edu.in/agpc-awards.php"},
+    {"event": "Placement Day", "url": "https://www.arasanganesanpoly.edu.in/placement-day.php"},
+    {"event": "Annual Day", "url": "https://www.arasanganesanpoly.edu.in/annual-day.php"}
+  ],
+
+  "pdf_assets": [
+    {"title": "AICTE Mandatory Disclosure 2026", "url": "https://www.arasanganesanpoly.edu.in/assets/pdf/AICTE_MANDATORY_DISCLOSURE_2026 (1).pdf"},
+    {"title": "44th Sports Day Annual Report 2025-2026", "url": "https://www.arasanganesanpoly.edu.in/assets/pdf/44th Sports Day Annual Report 2025-2026.pdf"},
+    {"title": "Principal Profile (Full CV)", "url": "https://www.arasanganesanpoly.edu.in/assets/pdf/principal.pdf"},
+    {"title": "ISTE Staff Chapter Report", "url": "https://www.arasanganesanpoly.edu.in/assets/pdf/ISTE Report.pdf"}
+  ],
+
+  "leadership_messages_full": {
+    "chairman": {
+      "name": "Thiru. G. Ashokan",
+      "message": "Dear Students, Parents, and Well-Wishers, It gives me great pleasure to welcome you to Arasan Ganesan Polytechnic College (AGPC), an esteemed institution dedicated to shaping competent engineers and responsible citizens. Since its establishment, AGPC has consistently upheld a strong commitment to quality technical education, discipline, and character development. Our aim is not only to impart technical knowledge but also to instil confidence, creativity, and leadership among our students. With excellent infrastructure, advanced laboratories, and a dedicated team of experienced faculty members, we ensure that every learner receives value-based education rooted in practical exposure. We believe that 'Activity Means Progress', and at AGPC, progress is not just a motto but a culture we cultivate in every student. We actively encourage innovation, skills development, and real-world understanding to prepare our students for the evolving industrial landscape. I extend my warm wishes to all students who join our academic family. May this institution serve as a strong foundation for your personal growth and professional success.",
+      "key_themes": ["Commitment to quality technical education, discipline, character development", "Focus on confidence, creativity, leadership alongside technical knowledge", "Activity Means Progress — a culture, not just a motto", "Encouragement for innovation, skills development, real-world understanding"]
+    },
+    "correspondent": {
+      "name": "Thiru. A. Ganeshkumar",
+      "message": "Dear Students, Welcome to Arasan Ganesan Polytechnic College (AGPC) — an institution driven by purpose, passion, and progress. As the Correspondent, I firmly believe that technical education is a powerful tool to transform individuals, families, and communities. Our institution strives to provide a learning environment characterized by discipline, innovation, practical training, and strong moral values. Over the years, AGPC has grown into a trusted centre for technical education, supported by a robust academic system, experienced faculty, and industry-aligned training methodologies. We focus on ensuring that every student develops not only strong theoretical understanding but also hands-on competence that meets the expectations of modern industries. Our collaboration with industries, placement support initiatives, and student development programmes help shape confident, skilled, and job-ready technicians. We continuously upgrade our infrastructure, curriculum delivery methods, and support systems to align with global standards. I encourage all students to make the best use of available resources, participate actively in academic and co-curricular activities, and embrace continuous learning. Your journey with AGPC will play a vital role in shaping your future and opening doors to new opportunities.",
+      "key_themes": ["Technical education as a tool to transform individuals, families, communities", "Discipline, innovation, practical training, and strong moral values", "Industry-aligned training methodologies and hands-on competence", "Continuous upgrade of infrastructure and curriculum delivery"]
+    },
+    "principal": {
+      "name": "Dr. M. Nandakumar",
+      "message": "Dear Students, Greetings from Arasan Ganesan Polytechnic College (AGPC). I am delighted to welcome you to our vibrant and eco-friendly campus. Since 1981, AGPC has been committed to uplifting rural and semi-urban students by offering affordable, high-quality technical education. Our college stands as a symbol of discipline, dedication, and academic excellence. Our team of experienced faculty members ensures that learning extends beyond textbooks. We emphasize hands-on training, industrial exposure, workshops, and project-based learning to make students technically competent and industry-ready. Each faculty member also acts as a mentor, providing personal guidance and career support to students. We maintain strong ties with 300+ industries, ensuring valuable internship opportunities, professional training, and campus placements. Through various clubs, associations, and extension activities, students develop leadership qualities, social responsibility, communication skills, and confidence. At AGPC, we strongly believe that progress begins with active participation. I encourage each of you to embrace opportunities, enhance your skills, uphold strong values, and unlock your true potential. May your journey here lead you to lasting professional success and meaningful personal growth.",
+      "key_themes": ["AGPC est. 1981 — uplifting rural and semi-urban students", "Affordable, high-quality technical education", "Faculty as mentors providing personal guidance", "300+ industry ties for internships and placements", "Progress begins with active participation"]
+    }
+  },
+
+  "faq": [
+    {"question": "What is the admission procedure at AGPC?", "answer": "Step 1: Obtain application form (office/phone/email). Step 2: Fill form with personal details, academic records, course preference. Step 3: Attach documents (SSLC Mark Sheet, TC, Conduct Certificate, Community Certificate, Photos, Aadhaar). Step 4: Submit at admission cell. Step 5: Document verification. Step 6: Fee payment per DOTE norms. Step 7: Admission confirmation after DOTE approval."},
+    {"question": "What documents are needed for admission?", "answer": "All applicants: SSLC/10th Mark Sheet, Transfer Certificate, Conduct Certificate, Community Certificate (if applicable), 4-6 Passport-size Photos, Aadhaar Card. Scholarship applicants: Income Certificate from Tahsildar. Lateral entry: ITI Certificate or HSC Vocational Certificate with mark sheets."},
+    {"question": "What fee concessions are available?", "answer": "Government scholarships for SC (full fee waiver + stipend), ST (full fee waiver + stipend), BC (tuition waiver + stipend), MBC, DNC, EWS (tuition waiver). Special: First Graduate Concession, State/Central Govt welfare schemes, Private Trust/Industry scholarships. College assists all students in applying."},
+    {"question": "What is the AGPC campus like?", "answer": "AGPC has a vibrant, eco-friendly campus with modern labs, a 540 sq.m. library (CLAIR), separate hostels for boys and girls, 400m athletics track, 13 sports facilities, canteen, co-operative stores, and 3 bus routes. Named after founder Arasan A.M.S.G. Vijayakumar with green landscaping throughout."},
+    {"question": "What job roles can graduates get?", "answer": "Technician/Junior Engineer, Machine Operator/CNC Operator, Quality Control Assistant, Electrical Maintenance Technician, Network & IT Support Technician, Civil Site Supervisor, Printing & Press Technician, Service Engineer/Field Technician. Sectors include automotive (TVS), IT (HCL), electrical (TNEB), civil (L&T), and printing."},
+    {"question": "How does AGPC support entrepreneurship?", "answer": "AGPC supports entrepreneurship through CIICP and CDTP schemes in areas like fabrication & welding workshops, computer service & networking, civil contracting, digital printing & DTP, electrical wiring & maintenance, graphic design & web services, and machine servicing & repairs."},
+    {"question": "What is the anti-ragging policy?", "answer": "AGPC has a strict Anti-Ragging policy. The institution is committed to maintaining a safe, respectful campus environment for all students. Details available at: https://www.arasanganesanpoly.edu.in/anti-ragging.php"},
+    {"question": "What competitive exams can students prepare for?", "answer": "AGPC provides guidance for TNEB, TANGEDCO, SSC, and Banking competitive examinations through its placement cell and career guidance department."},
+    {"question": "Is lateral entry available for HSC students?", "answer": "Yes. Students who have completed HSC (Academic or Vocational stream) or 2-year ITI in a relevant trade are eligible for lateral entry — direct admission to the second year of the diploma programme."},
+    {"question": "What is AGPC's vision?", "answer": "To uplift rural and semi-urban students through accessible, affordable, and industry-relevant technical education; to be a role model and pioneer institution in the field of technical education in India."}
+  ]
+}

@@ -1,0 +1,36 @@
+# Python standard
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+ENV/
+env/
+.venv
+
+# Secrets & Local Config
+.env
+.flaskenv
+
+# Large/Auto-generated Database
+agpc_chroma_db/
+
+# Logs
+*.log
+checking.error.log
+checking.log
+error.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation / Scratch
+temp/
+/tmp/

@@ -1,0 +1,15 @@
+# AGPC Chatbot — Requirements
+# Install: pip install -r requirements.txt --break-system-packages
+
+flask>=3.0.0
+sentence-transformers>=2.7.0
+chromadb>=0.5.0
+google-generativeai>=0.8.0
+gTTS>=2.5.0
+
+# Server-side STT fallback (optional: primary STT is browser Web Speech API)
+SpeechRecognition>=3.10.0
+pydub>=0.25.0
+
+# Auto-installed with the above but listed for clarity
+numpy>=1.24.0

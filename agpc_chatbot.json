@@ -1,0 +1,402 @@
+{
+  "_meta": {
+    "title": "AGPC Chatbot Knowledge Base",
+    "institution": "Arasan Ganesan Polytechnic College",
+    "acronym": "AGPC",
+    "version": "4.0",
+    "compiled": "2026-03-29"
+  },
+
+  "institution": {
+    "full_name": "Arasan Ganesan Polytechnic College",
+    "short_name": "AGPC",
+    "founded": 1981,
+    "age": "45 years (as of 2026)",
+    "named_after": "Arasan A.M.S.G. Vijayakumar (Founding Correspondent)",
+    "type": "Private, Self-financing, Unaided Polytechnic Technical Institution",
+    "education_level": "Diploma (3-Year Full-Time Technical Programmes)",
+    "medium": "English",
+    "regulatory_bodies": ["AICTE — All India Council for Technical Education (National)", "DOTE — Directorate of Technical Education, Tamil Nadu (State)"],
+    "motto": "Yes, We Are Active – Activity Means Progress. PROGRESS IS OUR BUSINESS",
+    "vision": "To uplift rural and semi-urban students through accessible, affordable, and industry-relevant technical education; to be a role model and pioneer institution in technical education in India.",
+    "address": {
+      "street": "Virudhunagar Main Road, Anaikuttam (P.O.)",
+      "locality": "Amathur",
+      "city": "Sivakasi",
+      "district": "Virudhunagar",
+      "state": "Tamil Nadu",
+      "pincode": "626130",
+      "country": "India"
+    },
+    "phone": ["+91 95002 99595", "9500299595"],
+    "email": {
+      "admissions": "admission@arasanganesanpoly.edu.in",
+      "principal": "principal@arasanganesanpoly.edu.in",
+      "general": "agpoly1981@gmail.com"
+    },
+    "website": "https://www.arasanganesanpoly.edu.in",
+    "digital_library": "http://103.104.68.42:8080/agpc/",
+    "aicte_disclosure": "https://www.arasanganesanpoly.edu.in/assets/pdf/AICTE_MANDATORY_DISCLOSURE_2026 (1).pdf"
+  },
+
+  "management": {
+    "chairman": {
+      "name": "Thiru. G. Ashokan",
+      "qualification": "B.Com.",
+      "role": "Chairman, Governing Council"
+    },
+    "correspondent": {
+      "name": "Thiru. A. Ganeshkumar",
+      "qualification": "B.Tech., M.B.A.",
+      "role": "Correspondent, Governing Council"
+    },
+    "principal": {
+      "name": "Dr. M. Nandakumar",
+      "qualification": "M.E., Ph.D.",
+      "specialization": "Printing Engineering and Technology",
+      "role": "Principal and Ex-Officio Member/Secretary",
+      "highlights": [
+        "Doctorate in Printing Engineering and Technology",
+        "Authored printing textbooks, guides, and reference materials",
+        "Published papers at national and international conferences",
+        "Contributed to R2023 Scheme syllabus for Diploma in Printing, Paper, Packaging",
+        "Led institution to 300+ industry tie-ups"
+      ]
+    },
+    "treasurer": "Thiru. G. V. Karthik",
+    "librarian": {
+      "name": "Dr. C. Ramasubramanian",
+      "qualification": "M.C.A., M.E., M.L.I.Sc., SET, Ph.D.",
+      "role": "Librarian and Exam Cell Officer (ECO)"
+    },
+    "library_assistant": {
+      "name": "Tmt. M. JayaLakshmi",
+      "qualification": "B.Com., M.L.I.Sc."
+    }
+  },
+
+  "departments": {
+    "basic_engineering": {
+      "name": "Basic Engineering",
+      "established": 1981,
+      "intake": 420,
+      "role": "Common foundation year for ALL first-year diploma students across all branches",
+      "focus": "Physics, Chemistry, Mathematics, Engineering Concepts, Technical English, Workshop Practice",
+      "about": "Oldest department (est. 1981). Gateway to professional technical education. Annual intake 420 students — all engineering students go through Basic Engineering before choosing their specialization."
+    },
+    "civil_engineering": {
+      "name": "Civil Engineering",
+      "established": 1982,
+      "intake": 60,
+      "focus": "Planning, design, and construction of buildings, roads, bridges, public infrastructure. Uses STAAD Pro and Total Station.",
+      "laboratories": ["Universal Testing Machines (UTM)", "Hydraulics and Fluid Mechanics Lab", "Surveying Lab with Total Station", "Water Testing Lab", "CAD Workstations"],
+      "career_roles": ["Site Supervisor", "Surveyor", "CAD Drafter", "Govt Technical Roles (PWD, Municipality)"]
+    },
+    "ece": {
+      "name": "Electronics and Communication Engineering (ECE)",
+      "established": 1982,
+      "lab_value": "Rs. 75 Lakhs",
+      "focus": "Electronic systems, communication, embedded systems, IoT, robotics, industrial automation.",
+      "special_labs": ["High-Tech Robotics Laboratory", "PLC (Programmable Logic Controller) Lab"],
+      "staff_specializations": ["Microcontroller design (Arduino, Raspberry Pi, ESP32)", "PCB design and drawing", "IoT-based control systems", "Computer hardware and networking"],
+      "emerging_tech": ["Embedded Systems", "IoT", "Robotics", "Automation"],
+      "about": "Lab value Rs.75 Lakhs. Robotics Lab and PLC Lab. Excellent industry interaction and strong alumni network. Immediate placement on graduation."
+    },
+    "printing_technology": {
+      "name": "Printing Technology",
+      "established": "1996-1997",
+      "origin": "World Bank Project Scheme",
+      "building_sqft": 10000,
+      "machinery_value": "Rs. 2 Crores+",
+      "infrastructure_cost": "Rs. 40 Lakhs (additional)",
+      "placement_rate": "100% consistently across all 20+ batches (India and abroad)",
+      "board_ranks": "State First Rank — multiple times in DOTE board exams",
+      "labs": ["DTP Lab (Desktop Publishing)", "Press Work Lab", "Binding Lab", "Print Quality Control Lab", "Packaging Lab"],
+      "focus": "Printing processes, graphic communication, packaging, DTP, offset and flexographic printing",
+      "about": "Star department: 100% placement, State First Rank, Rs.2Cr+ machinery, 10,000 sqft dedicated building, 20+ batches graduated. Principal Dr. Nandakumar is a doctorate holder in Printing Engineering.",
+      "accessibility": "Ramp facilities for Persons with Disabilities"
+    },
+    "mechanical_engineering": {
+      "name": "Mechanical Engineering",
+      "known_as": "Mother Branch of Engineering",
+      "focus": "Manufacturing processes, thermal sciences, machine design, industrial engineering. NDT (Non-Destructive Testing) lab available.",
+      "about": "One of AGPC's oldest and most sought-after departments. Covers core mechanical (kinematics, dynamics), manufacturing (casting, welding, CNC), thermal (thermodynamics, HVAC), and machine design (CAD/CAM). Highly experienced faculty.",
+      "special_labs": ["NDT (Non-Destructive Testing) Laboratory"],
+      "career_roles": ["Junior Engineer", "CNC Machine Operator", "Quality Control Technician", "Production Engineer"]
+    },
+    "eee": {
+      "name": "Electrical and Electronics Engineering (EEE)",
+      "established": 1999,
+      "laboratories": 3,
+      "placement_rate": "100% achieved in 2025",
+      "focus": "Power systems, electrical machines, control systems, PLC/SCADA, maintenance engineering.",
+      "about": "Established 1999. 3 academic labs. 100% placement in 2025. Active industrial interaction through consultancy and sponsored projects. Training engineers, innovators, and leaders.",
+      "career_roles": ["Electrical Maintenance Technician", "Power Systems Technician", "Control Systems Engineer", "TNEB/Utility Technician"]
+    },
+    "computer_engineering": {
+      "name": "Computer Engineering",
+      "focus": "Computer systems, programming, networking, software development, AI, Machine Learning, Data Science, Cloud Computing, IoT.",
+      "core_subjects": ["Programming and Data Structures", "Computer Networks and Security", "Database Management Systems (DBMS)", "Operating Systems", "Software Engineering and SDLC"],
+      "emerging_tech": ["Artificial Intelligence (AI)", "Machine Learning (ML)", "Data Science and Big Data Analytics", "Cloud Computing", "Internet of Things (IoT)"],
+      "career_roles": ["Software Developer", "IT Hardware Support", "Network Administrator", "Data Analyst", "Cloud Engineer"],
+      "about": "Industry-aligned curriculum from classical computing to cutting-edge AI and IoT. Department mission: innovation, research, entrepreneurship, ethical values."
+    }
+  },
+
+  "admissions": {
+    "status": "OPEN for Academic Year 2026-2027",
+    "governed_by": "DOTE — Directorate of Technical Education, Tamil Nadu",
+    "capitation_fee": "NOT collected. No hidden charges whatsoever.",
+    "courses_offered": [
+      "1. Diploma in Civil Engineering",
+      "2. Diploma in Mechanical Engineering",
+      "3. Diploma in Electrical and Electronics Engineering (EEE)",
+      "4. Diploma in Electronics and Communication Engineering (ECE)",
+      "5. Diploma in Computer Engineering",
+      "6. Diploma in Printing Technology",
+      "7. Basic Engineering (Common First Year for all students)"
+    ],
+    "note": "AGPC does NOT offer Automobile Engineering. Total diploma courses: 6.",
+    "eligibility": {
+      "regular_first_year": "Passed SSLC/10th Standard with Mathematics and Science, minimum pass percentage as per DOTE norms.",
+      "lateral_entry": "Completed HSC (Academic or Vocational stream) OR completed 2-year ITI in relevant trade. Direct admission to second year."
+    },
+    "channels": {
+      "government_quota": "Apply through Tamil Nadu Government Online Counselling. Seats allotted by merit and community reservation (SC/ST/BC/MBC/DNC).",
+      "management_quota": "Apply directly to the college. Merit-based. No capitation fee. Contact: admission@arasanganesanpoly.edu.in | +91 95002 99595."
+    },
+    "steps": [
+      "Step 1: Obtain form from college, phone (+91 95002 99595), or email (admission@arasanganesanpoly.edu.in)",
+      "Step 2: Fill form — personal details, academic marks, course preference",
+      "Step 3: Attach required documents",
+      "Step 4: Submit at admission cell",
+      "Step 5: Document verification by admission cell",
+      "Step 6: Fee payment as per DOTE norms",
+      "Step 7: DOTE approval and enrollment confirmation"
+    ],
+    "documents_required": {
+      "all": [
+        "SSLC/10th Mark Sheet (original + copy)",
+        "Transfer Certificate (TC)",
+        "Conduct Certificate",
+        "Community Certificate (if applicable)",
+        "Passport-size Photographs (4-6 copies)",
+        "Aadhaar Card Copy"
+      ],
+      "scholarship_applicants": ["Income Certificate"],
+      "lateral_entry": ["ITI Certificate or HSC Vocational Certificate", "ITI or HSC Mark Sheets"]
+    },
+    "scholarships": [
+      "SC (Scheduled Caste) — full fee waiver + stipend",
+      "ST (Scheduled Tribe) — full fee waiver + stipend",
+      "BC (Backward Class) — tuition fee waiver + stipend",
+      "MBC (Most Backward Class) — government scholarship",
+      "DNC (Denotified Community) — government scholarship",
+      "EWS (Economically Weaker Sections) — tuition fee waiver",
+      "First Graduate Concession — for first graduate in family",
+      "State Government Welfare Schemes",
+      "Central Government Welfare Schemes (Post-Matric)",
+      "Private Trust / Industry-Sponsored Scholarships (if applicable)"
+    ]
+  },
+
+  "key_numbers": {
+    "industry_tie_ups": "300+",
+    "departments": 7,
+    "diploma_courses": 6,
+    "clubs": 11,
+    "schemes": 4,
+    "facilities": 6,
+    "basic_eng_intake": 420,
+    "civil_eng_intake": 60,
+    "ece_lab_value_inr": "Rs. 75 Lakhs",
+    "printing_machinery_value_inr": "Rs. 2 Crores+",
+    "printing_building_sqft": 10000,
+    "library_books": 31189,
+    "library_sqm": 540,
+    "buses": 3,
+    "sports_day_edition": "44th Annual Sports Day (2025-2026)",
+    "theory_exam_2026": "Commences 23 March 2026",
+    "practical_exam_2026": "Commences 30 March 2026"
+  },
+
+  "schemes": {
+    "CIICP": {
+      "full_name": "Canada India Institutional Co-operation Project",
+      "type": "International institutional development and skill-building programme",
+      "goal": "Enhance quality through modernization, faculty training, industry collaboration, and student skill development",
+      "activities": ["Short-term skill development courses", "Industry-oriented training with certification", "Faculty development programmes"],
+      "major_activities": ["Soft-skill and communication training", "Community development programmes"],
+      "student_benefits": ["Industry-friendly training and exposure", "Certified skill development", "Improved confidence and communication"]
+    },
+    "CDTP": {
+      "full_name": "Community Development Through Polytechnics",
+      "type": "Government of India community upliftment scheme — free vocational training",
+      "goal": "Uplift rural and underprivileged communities through free skill training and technology transfer",
+      "trades_offered": ["Tailoring", "Electrical Wiring Basics", "Plumbing", "Two-Wheeler Mechanism", "Computer Training", "Carpentry", "Welding and Fabrication", "Screen Printing"],
+      "activities": ["Free vocational training", "Skill certification", "Employment guidance"]
+    },
+    "PWD": {
+      "full_name": "Persons With Disabilities Support Scheme",
+      "type": "Inclusive education and empowerment scheme",
+      "goal": "Support and empower students with disabilities through special training and inclusive education",
+      "support": ["Admission and academic assistance", "Special coaching classes", "Counselling and motivation", "Ramp facilities in Printing Dept building", "Govt disability scheme guidance", "Special placement support"]
+    },
+    "MODROBS": {
+      "full_name": "Modernization and Removal of Obsolescence",
+      "type": "AICTE-funded laboratory upgrade and modernization scheme",
+      "goal": "Upgrade lab and workshop facilities with advanced equipment aligned with industry practices",
+      "activities": ["Replace outdated equipment with modern machines", "Strengthen labs for advanced curriculum delivery", "Improve practical learning quality"],
+      "benefits_to_students": ["Hands-on training with updated lab equipment", "Exposure to industry-level tools", "Better preparation for technical employment"]
+    }
+  },
+
+  "clubs": [
+    {"name": "IE Students Chapter", "full_name": "Institution of Engineers – Students Chapter", "type": "Professional Technical Body", "activities": ["Technical seminars", "Industrial visits", "Paper presentations", "Model exhibitions"], "benefit": "Professional engineering body exposure. Technical seminars, industrial visits, paper presentations, networking with practising engineers."},
+    {"name": "IETE Students Forum", "full_name": "Institution of Electronics and Telecommunication Engineers", "type": "Professional Electronics Body", "activities": ["Embedded systems workshops", "Electronics hands-on training", "Circuit building"], "benefit": "Strengthens ECE skills. Embedded systems workshops, electronics training, innovation encouragement."},
+    {"name": "IIP Cell", "full_name": "Industry–Institution Partnership Cell", "type": "Industry Bridge", "activities": ["MoU signing with industries", "Industrial training programmes", "Student internships", "Guest lectures"], "benefit": "300+ MoUs. Arranges industrial training, internships, guest lectures from industry experts, joint student-company projects."},
+    {"name": "ISTE Staff Chapter", "full_name": "Indian Society for Technical Education", "type": "Faculty Development Body", "activities": ["Faculty development programmes", "Pedagogical workshops", "Research encouragement sessions", "Curriculum modernization seminars"], "benefit": "Improves teaching quality, academic planning, curriculum delivery across all departments."},
+    {"name": "JCI AGPC", "full_name": "Junior Chamber International – AGPC Chapter", "type": "Youth Leadership Organization", "activities": ["Leadership workshops", "Personality development", "Social service campaigns", "Motivational sessions"], "benefit": "Leadership skills, public speaking, confidence, international JCI network exposure."},
+    {"name": "NCC", "full_name": "National Cadet Corps", "type": "National Paramilitary Youth Body", "activities": ["Drill and parade", "Annual NCC training camps", "Trekking and adventure camps", "Republic Day and Independence Day parades"], "benefit": "NCC Certificates A, B, C — recognized nationally. Advantages in defence and govt job applications. Discipline, fitness, patriotism."},
+    {"name": "NSS", "full_name": "National Service Scheme", "type": "National Social Service Body", "activities": ["Tree plantation drives", "Blood donation camps", "Cleanliness drives (Swachh Bharat)", "Rural development activities"], "benefit": "Community service skills. NSS certificate recognized by universities for higher education admissions."},
+    {"name": "Red Ribbon Club", "type": "Health Awareness Body", "activities": ["HIV/AIDS prevention awareness", "Health wellness programmes", "Blood donation awareness", "Life-skill development sessions"], "benefit": "Health awareness, HIV/AIDS prevention, blood donation drives, community health engagement."},
+    {"name": "Rotaract Club", "full_name": "Rotary International Affiliate", "type": "International Youth Service Organization", "activities": ["Community outreach", "Leadership workshops", "Career guidance", "Fundraising and charity"], "benefit": "Leadership, teamwork, social responsibility, international Rotary network exposure, professional networking."},
+    {"name": "Theme Implementation Club", "type": "Institutional Culture Club", "activities": ["Theme-based competitions", "Poster and slogan contests", "Awareness campaigns", "Cultural events"], "benefit": "Creativity, leadership, organizational skills. Connects academic learning with real-life values."},
+    {"name": "Youth Red Cross (YRC)", "full_name": "Youth Red Cross", "type": "Humanitarian Service Organization", "activities": ["First-aid training", "Health awareness campaigns", "Disaster management workshops", "Blood donation drives"], "benefit": "First Aid certificate (nationally recognized). Empathy, discipline, crisis management, humanitarian service skills."}
+  ],
+
+  "facilities": {
+    "library_clair": {
+      "full_name": "Centre for Library and Information Resources (CLAIR)",
+      "named_after": "Founder Correspondent Arasan A.M.S.G. Vijayakumar",
+      "size_sqm": 540,
+      "sections": ["Stack Hall", "Reading Hall", "Periodicals Hall", "AC Seminar Hall", "Green Landscaping"],
+      "collection": {
+        "books": 31189,
+        "book_bank": 1453,
+        "cds": 2036,
+        "audio_video": 260,
+        "periodicals": 30,
+        "newspapers": 4
+      },
+      "digital_library": "D-Space at http://103.104.68.42:8080/agpc/ with OPAC and barcode access",
+      "timings": "Lunch: 12:35 PM – 1:10 PM | Evening: 4:15 PM – 5:15 PM",
+      "overdue_fine": "Rs. 1 per day",
+      "borrow_limit": "2 weeks",
+      "events": ["Reader's Club (est. 2025-26)", "National Librarian Day on 12 August", "Best User Award on Annual Day"]
+    },
+    "hostels": {
+      "type": "Separate for BOYS and GIRLS",
+      "features": ["Spacious ventilated rooms", "24/7 security and supervision", "Nutritious hygienic mess food", "Study rooms", "RO drinking water", "Indoor games", "Supportive wardens"]
+    },
+    "transport": {
+      "buses": 3,
+      "routes": [
+        {"bus": 1, "from": "Sivakasi", "to": "AGPC"},
+        {"bus": 2, "from": "Srivilliputhur", "to": "AGPC"},
+        {"bus": 3, "from": "Sattur", "to": "AGPC"}
+      ],
+      "available_to": "Both staff and students",
+      "also_used_for": ["Industrial visits", "Educational tours", "Inter-college tournaments"]
+    },
+    "physical_education": {
+      "outdoor_sports": ["Hockey", "Volleyball", "Basketball", "Handball", "Cricket", "Football", "Throwball", "Kho-Kho", "Kabaddi"],
+      "indoor_sports": ["Carrom", "Chess", "Shuttle Badminton", "Table-Tennis"],
+      "athletics_track": "400 metres",
+      "sports_day": "44th Annual Sports Day (2025-2026)",
+      "policy": "Evening games compulsory for all students. Separate coaching for talented players.",
+      "tournaments": "Inter-polytechnic, district, state, and national level tournaments"
+    },
+    "canteen": "Hygienic veg/non-veg meals, fresh snacks, beverages, juices. Affordable student pricing. Regular hygiene checks.",
+    "cooperative_stores": "On-campus store: textbooks, notebooks, drawing instruments, engineering tools, lab records, stationery, project materials."
+  },
+
+  "placement_cell": {
+    "mission": "100% placement assistance to all eligible students leveraging 300+ industry connections",
+    "training_modules": ["Aptitude and Logical Reasoning", "Technical Training (department-specific)", "Communication and Soft Skills", "Group Discussion", "Mock Interviews and HR sessions", "Resume Writing Workshops", "Personality Development"],
+    "sectors_hiring": ["Automotive and Auto Components (TVS, Ashok Leyland)", "Electrical (TNEB, TANGEDCO)", "IT Hardware and Networking (HCL, Wipro)", "Civil Construction (L&T, CPWD)", "Printing and Packaging (Sivakasi hub)", "Heavy Machinery and Fabrication", "Electronics Manufacturing"],
+    "job_roles": ["Technician / Junior Engineer", "Machine Operator / CNC Operator", "Quality Control Assistant", "Electrical Maintenance Technician", "Network and IT Support Technician", "Civil Site Supervisor", "Printing and Press Technician", "Service Engineer / Field Technician"]
+  },
+
+  "examination_cell": {
+    "officer": "Dr. C. Ramasubramanian (also serves as Librarian)",
+    "governed_by": "DOTE — Directorate of Technical Education, Tamil Nadu",
+    "current_schedule_2026": {
+      "theory": "Commences 23 March 2026",
+      "practical": "Commences 30 March 2026"
+    }
+  },
+
+  "governing_council": [
+    {"no": 1, "name": "Thiru. G. Ashokan, B.Com.", "role": "Chairman"},
+    {"no": 2, "name": "Thiru. A. Ganeshkumar, B.Tech., M.B.A.", "role": "Correspondent"},
+    {"no": 3, "name": "Thiru. G. V. Karthik", "role": "Treasurer"},
+    {"no": 4, "name": "Tmt. Sharmilah Jeyagraham", "role": "Member — Management"},
+    {"no": 5, "name": "Thiru. V. Giridharan", "role": "Member — Management"},
+    {"no": 6, "name": "Dr. M. Nandakumar, M.E., Ph.D.", "role": "Principal and Ex-Officio Member/Secretary"},
+    {"no": 7, "name": "Director of Technical Education, Chennai", "role": "Nominee of Govt. of Tamil Nadu (Ex-Officio)"},
+    {"no": 8, "name": "Principal, Bharathiyar Centenary Memorial Women's Polytechnic College, Ettayapuram", "role": "Nominee — State Govt Educationalist"},
+    {"no": 9, "name": "Principal, Govt. Polytechnic College, Tuticorin", "role": "Nominee — State Board of Technical Education"},
+    {"no": 10, "name": "Southern Regional Officer (SRO), AICTE, Chennai", "role": "Nominee of Govt. of India (Ex-Officio)"},
+    {"no": 11, "name": "Nominee of AICTE (nominated by SRO)", "role": "Representative of AICTE"}
+  ],
+
+  "faq_pairs": [
+    {"q": "What courses does AGPC offer?", "a": "AGPC offers 6 full-time Diploma courses: (1) Civil Engineering, (2) Mechanical Engineering, (3) Electrical and Electronics Engineering (EEE), (4) Electronics and Communication Engineering (ECE), (5) Computer Engineering, and (6) Printing Technology. All students start with a common Basic Engineering first year before specializing."},
+    {"q": "How many courses does AGPC offer?", "a": "AGPC offers 6 diploma courses: Civil Engineering, Mechanical Engineering, EEE, ECE, Computer Engineering, and Printing Technology — plus a common Basic Engineering foundation year for all first-year students."},
+    {"q": "Which branches are available at AGPC?", "a": "AGPC has 6 engineering diploma branches: (1) Civil Engineering, (2) Mechanical Engineering, (3) EEE (Electrical & Electronics Engineering), (4) ECE (Electronics & Communication Engineering), (5) Computer Engineering, and (6) Printing Technology. All students share Basic Engineering in the first year."},
+    {"q": "Does AGPC offer Automobile Engineering?", "a": "No, AGPC does NOT offer Automobile Engineering. The 6 available diploma courses are: Civil Engineering, Mechanical Engineering, EEE, ECE, Computer Engineering, and Printing Technology. Mechanical Engineering covers many related concepts and is the closest branch to Automobile Engineering."},
+    {"q": "Is Automobile Engineering offered at AGPC?", "a": "No. AGPC does not have an Automobile Engineering department. The available branches are: Civil, Mechanical, EEE, ECE, Computer Engineering, and Printing Technology. Please consider Mechanical Engineering as an alternative."},
+    {"q": "Tell me about Civil Engineering at AGPC.", "a": "Civil Engineering (est. 1982, intake 60) covers planning, design, and construction of buildings, roads, bridges, and infrastructure. Labs include Total Station, STAAD Pro, Universal Testing Machine (UTM), and CAD workstations. Career roles: Site Supervisor, Surveyor, CAD Drafter, PWD and EB government roles."},
+    {"q": "Tell me about Mechanical Engineering at AGPC.", "a": "Mechanical Engineering — the 'Mother Branch' of engineering — is one of AGPC's oldest departments. It covers manufacturing processes, thermal sciences, machine design, and industrial engineering. The department has an NDT (Non-Destructive Testing) laboratory. Highly experienced and dedicated faculty."},
+    {"q": "Tell me about EEE at AGPC.", "a": "Electrical and Electronics Engineering (EEE), established in 1999, has 3 academic labs and achieved 100% placement in 2025. It covers power systems, electrical machines, control systems, and PLC/SCADA. Active industrial interaction through consultancy and sponsored projects."},
+    {"q": "Tell me about ECE at AGPC.", "a": "Electronics and Communication Engineering (ECE), est. 1982, has labs worth Rs. 75 Lakhs including a High-Tech Robotics Lab and PLC Lab. It covers electronic systems, communication, embedded systems (Arduino, ESP32), IoT, and automation. Strong alumni network and immediate placement opportunities."},
+    {"q": "Tell me about Computer Engineering at AGPC.", "a": "Computer Engineering covers core computing (Programming, Networking, DBMS, OS, Software Engineering) and emerging technologies (Artificial Intelligence, Machine Learning, Data Science and Big Data Analytics, Cloud Computing, and IoT). Career roles: Software Developer, Network Administrator, Data Analyst, Cloud Engineer."},
+    {"q": "Tell me about Printing Technology at AGPC.", "a": "Printing Technology (est. 1996-97 under World Bank Scheme) is a star department. 100% placement consistently across all 20+ batches (India and abroad). State First Rank multiple times. Rs. 2 Crores+ machinery. 10,000 sqft dedicated building with 5 labs: DTP, Press Work, Binding, Quality Control, and Packaging. Principal Dr. Nandakumar is a doctorate holder in Printing Engineering."},
+    {"q": "When was AGPC founded?", "a": "AGPC was founded in 1981 and has been in operation for 45 years as of 2026."},
+    {"q": "Where is AGPC located?", "a": "Virudhunagar Main Road, Anaikuttam P.O., Amathur, Sivakasi, Tamil Nadu — 626 130."},
+    {"q": "What is AGPC's phone number?", "a": "+91 95002 99595"},
+    {"q": "What is the admission email?", "a": "admission@arasanganesanpoly.edu.in"},
+    {"q": "What is AGPC's general email?", "a": "agpoly1981@gmail.com"},
+    {"q": "Who is the Principal of AGPC?", "a": "Dr. M. Nandakumar, M.E., Ph.D. He specializes in Printing Engineering and Technology. He authored printing textbooks, published at international conferences, contributed to the R2023 Scheme syllabus, and led the college to 300+ industry tie-ups."},
+    {"q": "Who is the Chairman of AGPC?", "a": "Thiru. G. Ashokan, B.Com. — Chairman of the Governing Council."},
+    {"q": "Who is the Correspondent of AGPC?", "a": "Thiru. A. Ganeshkumar, B.Tech., M.B.A. — Correspondent of the Governing Council."},
+    {"q": "How many departments does AGPC have?", "a": "AGPC has 7 departments: Basic Engineering, Civil Engineering, ECE, Printing Technology, Mechanical Engineering, EEE, and Computer Engineering."},
+    {"q": "What is the intake of Basic Engineering?", "a": "420 students per year. Basic Engineering is the common first year for all diploma students across all branches."},
+    {"q": "What is the intake of Civil Engineering?", "a": "60 students per year, including lateral entry provision."},
+    {"q": "Are admissions open for 2026-2027?", "a": "Yes! Admissions are currently OPEN for Academic Year 2026-2027. Contact: +91 95002 99595 or admission@arasanganesanpoly.edu.in"},
+    {"q": "Is there a capitation fee at AGPC?", "a": "No. AGPC strictly does not collect any capitation fee or hidden charges. Fees are only as per DOTE government norms."},
+    {"q": "What is the eligibility for admission?", "a": "Pass SSLC/10th with Mathematics and Science (minimum percentage as per DOTE norms). Lateral entry: HSC or 2-year ITI holders get direct admission to second year."},
+    {"q": "What scholarships are available?", "a": "Government scholarships for SC (full fee waiver + stipend), ST, BC, MBC, DNC, EWS. Also First Graduate Concession, State and Central Government welfare schemes. College actively helps all eligible students apply."},
+    {"q": "How to apply for admission?", "a": "Contact: +91 95002 99595 or email admission@arasanganesanpoly.edu.in. Government Quota: apply via Tamil Nadu Govt Online Counselling. Management Quota: apply directly. Steps: (1) Get form, (2) Fill details, (3) Attach documents, (4) Submit at admission cell, (5) Document verification, (6) Fee payment, (7) DOTE approval and enrollment."},
+    {"q": "What is the placement rate at AGPC?", "a": "100% placement is the stated goal. Printing Technology: 100% placement across all 20+ batches (India & abroad). EEE: 100% placement in 2025. 300+ industry ties for all branches."},
+    {"q": "How many industries is AGPC tied up with?", "a": "300+ industries for placements, internships, and guest lectures."},
+    {"q": "What is CLAIR?", "a": "Centre for Library and Information Resources — AGPC's library named after founding correspondent Arasan A.M.S.G. Vijayakumar. Has 31,189 books, 2,036 CDs, D-Space digital library, OPAC, and 540 sq.m. dedicated building."},
+    {"q": "How many books does AGPC library have?", "a": "31,189 volumes plus 1,453 book bank books, 2,036 CDs, 260 audio/video cassettes, 30 periodicals, and 4 daily newspapers."},
+    {"q": "What is the library overdue fine?", "a": "Rs. 1 per day per book. Books must be returned within 2 weeks."},
+    {"q": "Who is the Librarian?", "a": "Dr. C. Ramasubramanian (M.C.A., M.E., M.L.I.Sc., SET, Ph.D.) — who also serves as Exam Cell Officer (ECO)."},
+    {"q": "Is hostel available at AGPC?", "a": "Yes. Separate hostels for boys and girls with 24/7 security, nutritious mess food, study rooms, RO drinking water, indoor games, and supportive wardens."},
+    {"q": "How many buses does AGPC operate?", "a": "3 buses: Route 1 (Sivakasi → AGPC), Route 2 (Srivilliputhur → AGPC), Route 3 (Sattur → AGPC). Available for both staff and students."},
+    {"q": "What outdoor sports are available?", "a": "9 outdoor sports: Hockey, Volleyball, Basketball, Handball, Cricket, Football, Throwball, Kho-Kho, Kabaddi. Plus 400m athletics track."},
+    {"q": "What indoor sports are available?", "a": "4 indoor sports: Carrom, Chess, Shuttle Badminton, Table-Tennis."},
+    {"q": "What is special about Printing Technology?", "a": "Printing Technology at AGPC: 100% placement consistently across 20+ batches (India AND abroad). State First Rank multiple times. Rs. 2 Crores+ machinery in dedicated 10,000 sqft building. 5 labs: DTP, Press Work, Binding, Quality Control, Packaging. Ramp access for disabled students."},
+    {"q": "What is the ECE lab worth?", "a": "Rs. 75 Lakhs. ECE dept. has a High-Tech Robotics Lab and PLC (Programmable Logic Controller) Lab, established 1982."},
+    {"q": "What are the exam dates for April 2026?", "a": "Theory Examination commences 23 March 2026. Practical Examination commences 30 March 2026."},
+    {"q": "Who is the Exam Cell Officer?", "a": "Dr. C. Ramasubramanian (who also serves as Librarian)."},
+    {"q": "What is the AGPC motto?", "a": "Yes, We Are Active – Activity Means Progress. PROGRESS IS OUR BUSINESS."},
+    {"q": "What is the MODROBS scheme?", "a": "Modernization and Removal of Obsolescence — an AICTE-funded scheme to upgrade labs with modern industry-standard equipment across all 7 departments."},
+    {"q": "What is CDTP?", "a": "Community Development Through Polytechnics — provides free vocational training (tailoring, electrical wiring, plumbing, two-wheeler mechanism, computer training, carpentry, welding, screen printing) to rural and underprivileged communities."},
+    {"q": "What is CIICP?", "a": "Canada India Institutional Co-operation Project — an international programme for skill development, faculty training, industry collaboration, certification, and community upliftment."},
+    {"q": "How many clubs does AGPC have?", "a": "11 clubs: IE Students Chapter, IETE Students Forum, IIP Cell, ISTE Staff Chapter, JCI AGPC, NCC, NSS, Red Ribbon Club, Rotaract Club, Theme Implementation Club, and Youth Red Cross (YRC)."},
+    {"q": "What are NCC benefits at AGPC?", "a": "NCC provides Certificates A, B, and C (nationally recognized). Advantages in defence and government job applications. Activities: drill, parade, army attachment camps, Republic Day & Independence Day parades."},
+    {"q": "What higher studies can I do after AGPC diploma?", "a": "After a 3-year diploma from AGPC, apply for lateral entry to B.E./B.Tech engineering degree via TNEA counselling (direct second-year admission). AGPC's placement cell guides students through the entire process."},
+    {"q": "What job roles can AGPC graduates get?", "a": "Roles: Technician/Junior Engineer, CNC Machine Operator, Quality Control Assistant, Electrical Maintenance Technician, Network/IT Support Technician, Civil Site Supervisor, Printing Press Technician, Service/Field Engineer. Sectors: TVS, HCL, TNEB, L&T, Sivakasi printing industry."},
+    {"q": "What is the AGPC website?", "a": "https://www.arasanganesanpoly.edu.in"},
+    {"q": "What is the 44th Sports Day?", "a": "AGPC's 44th Annual Sports Day was held in 2025-2026. Report PDF available on the college website."},
+    {"q": "National Librarian Day at AGPC", "a": "National Librarian Day is celebrated on 12th August every year at AGPC. Activities: competitions, cultural events. Winners receive books and certificates. Reader's Club was established in 2025-26."},
+    {"q": "What is the governing body of AGPC?", "a": "AICTE (national) and DOTE — Directorate of Technical Education, Tamil Nadu (state)."},
+    {"q": "Is the college affiliated to Anna University?", "a": "No. AGPC is affiliated to DOTE (Directorate of Technical Education), Tamil Nadu, which awards the diploma certificate. It is NOT affiliated to Anna University."},
+    {"q": "What is the AGPC digital library URL?", "a": "http://103.104.68.42:8080/agpc/ — D-Space institutional digital repository with OPAC catalogue search."},
+    {"q": "Can I start a business after AGPC diploma?", "a": "Yes! AGPC supports entrepreneurship through CIICP and CDTP schemes in areas like: fabrication/welding workshops, computer service, civil contracting, digital printing and DTP, electrical maintenance, graphic design, machine servicing."}
+  ]
+}
